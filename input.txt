@@ -1,0 +1,33 @@
+begin_struct
+
+structure Point{int x;int y;};
+
+end_struct
+
+begin_global
+
+int x;
+float z;
+
+end_global
+
+begin_functions
+
+int f(int x,float y);
+
+end_functions
+
+begin_progr
+
+const int a:=3;
+Eval((2*4)+(4*2));
+TypeOf(a+2);
+
+int arr[3]:={1,2,3};
+arr[1]:=45;
+x:=4;
+
+
+
+
+end_progr
